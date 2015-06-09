@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:text="Faculty of Information and Communication Technology"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="A broad-based programme of studies, which aims to acquaint students with a wide range of problems that arise in computing and information technology, together with various methods and technologies available as solutions.
+
+\n\n* Programming skills: high level languages — C++ and JAVA;
+\n\n* Multimedia: awareness of multimedia use in computer programming;
+\n\n* Theoretical and technical knowledge: importance of data and telecommunications to information systems, the emergence of the Internet, to understanding the principles of underlying operating systems and their continued development;
+\n\n* Individual development: acquiring analytical and numerical skills for computer programming, presentation and PR skills for various working environments."/>
+
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/laptop_img"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:text="About the Industry"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Computing is usually defined as the activity of using and improving computer hardware and software. It is the computer-specific part of information technology. Computer science (or computing science) is the study and the science of the theoretical foundations of information and computation and their implementation and application in computer systems.\n"/>
+
+    </LinearLayout>
+</ScrollView>
